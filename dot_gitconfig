@@ -1,0 +1,10 @@
+[commit]
+	gpgsign = true
+[user]
+	signingKey = /Users/lorispolenz/.ssh/GitSign
+	name = Loris Polenz
+	email = contact@lorispolenz.com
+[gpg "ssh"]
+	allowedSignersFile = /Users/lorispolenz/.ssh/allowed_signers
+[gpg]
+	format = ssh
