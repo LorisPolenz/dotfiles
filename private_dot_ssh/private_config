@@ -1,0 +1,29 @@
+Host *.lopo.dev 
+	User loris
+	IdentityFile ~/.ssh/Hetzner
+	IdentitiesOnly yes
+Host c.lopo.dev
+	User loris
+	IdentityFile ~/.ssh/Contabo	
+
+Host github.com
+	IdentityFile ~/.ssh/GitHub
+	User git
+
+Host gitlab.com
+	IdentityFile ~/.ssh/GitLab
+
+Host *.local
+	IdentityFile ~/.ssh/HomeServer
+
+Host *.swisscom.*
+	IdentityFile ~/.ssh/Swisscom
+
+Host *.gitpod.*
+	IdentityFile ~/.ssh/Gitpod
+
+Host * 
+	User root
+	IdentityFile ~/.ssh/cloud/cloud
+	IdentitiesOnly yes
+	Compression yes
