@@ -1,0 +1,116 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": true,
+    "editor.inlineSuggest.enabled": true,
+    "remote.SSH.defaultExtensions": [
+        "gitpod.gitpod-remote-ssh"
+    ],
+    "redhat.telemetry.enabled": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "html": false,
+        "css": false,
+        "rust": false,
+        "python": true
+    },
+    "settingsSync.ignoredSettings": [
+        "configurationSync.store"
+    ],
+    "configurationSync.store": {
+        "url": "https://gitpod.io/code-sync",
+        "stableUrl": "https://gitpod.io/code-sync",
+        "insidersUrl": "https://gitpod.io/code-sync",
+        "canSwitch": false,
+        "authenticationProviders": {
+            "gitpod": {
+                "scopes": [
+                    "function:accessCodeSyncStorage",
+                    "function:getLoggedInUser",
+                    "resource:default"
+                ]
+            }
+        }
+    },
+    "workbench.editorAssociations": {
+        "*.db": "default"
+    },
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "Comic Code Ligatures, 'Courier New', monospace",
+    "editor.codeActionsOnSave": {},
+    "explorer.confirmDragAndDrop": false,
+    "hardhat.telemetry": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "terminal.integrated.inheritEnv": false,
+    "settingsSync.ignoredExtensions": [
+        "chriswood.pico-go"
+    ],
+    "pymakr.devices.configs": {
+        "serial:///dev/tty.Bluetooth-Incoming-Port": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "e6616408435f5b22": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": "/",
+            "adapterOptions": {}
+        },
+        "R58M33KHMAZ": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "e66164084370ba22": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": "/",
+            "adapterOptions": {}
+        }
+    },
+    "pymakr.misc.notifications": {
+        "A terminal for tty.usbmodem112401 / Led Example already exists.": "Open existing terminal",
+        "Uploading a project will delete all existing files on the device before uploading the project folder. After uploading a project, you can start it by restarting the device. For faster uploads without file deletion, please put the device in dev mode.": "Don't show again"
+    },
+    "gitpod.host": "",
+    "gitpod.remote.useLocalApp": false,
+    "gitpod.showReleaseNotes": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "window.zoomLevel": 1,
+    "arduino.useArduinoCli": true,
+}
